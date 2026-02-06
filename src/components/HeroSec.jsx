@@ -13,7 +13,7 @@ const HeroSec = () => {
               whileInView={{ opacity: 1, y: 0 }} // when in viewport
               viewport={{ once: false }}          // animate only once
               transition={{ duration: 1, ease: "easeOut" }}
-              className='text-4xl  md:text-6xl lg:text-8xl font-bold text-white px-5 text-center'>Hi! Welcome to My <span>Portfolio</span></motion.h1>
+              className='text-4xl  md:text-6xl lg:text-8xl font-bold text-white px-5 text-center'>Hi! Welcome to My <span className='text-gray-400'>Portfolio</span></motion.h1>
             <motion.p 
               initial={{ opacity: 0, y: 50 }}   // before appearing
               whileInView={{ opacity: 1, y: 0 }} // when in viewport
