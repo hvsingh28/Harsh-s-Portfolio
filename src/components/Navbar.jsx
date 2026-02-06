@@ -16,7 +16,7 @@ const Navbar = () => {
               <a href='#home' className='hover:text-blue-600'><li>Home</li></a>
               <a href='#about' className='hover:text-blue-600'><li>About</li></a>
               <a href='#projects' className='hover:text-blue-600'><li>Projects</li></a>
-              <a><li>Let's connect</li></a>
+              <a href='#contact' className='hover:text-blue-600'><li>Let's connect</li></a>
             </ul>
           </div>
           {open&& <OpenNav close={()=>setOpen(false)}/>}

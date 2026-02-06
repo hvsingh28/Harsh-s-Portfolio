@@ -4,7 +4,7 @@ import HeroSec from './components/HeroSec'
 import AboutSection from './components/AboutSection'
 import ProjectSection from './components/ProjectSection'
 import Footer from './components/Footer'
-
+import Contact from './components/Contact'
 const App = () => {
   return (
     <>
@@ -12,6 +12,7 @@ const App = () => {
       <HeroSec />
       <AboutSection />
       <ProjectSection />
+      <Contact />
       <Footer />
     </>
   )

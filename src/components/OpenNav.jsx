@@ -7,7 +7,7 @@ const OpenNav = (props) => {
               <a href='#home' onClick={props.close} className='hover:text-blue-600'><li>HOME</li></a>
               <a href='#about' onClick={props.close} className='hover:text-blue-600'><li>ABOUT</li></a>
               <a href='#projects' onClick={props.close} className='hover:text-blue-600'><li>PROJECTS</li></a>
-              <a><li>LET'S CONNECT</li></a>
+              <a href='#contact' onClick={props.close} className='hover:text-blue-600'><li>LET'S CONNECT</li></a>
         </ul>
         
     </div>
