@@ -41,7 +41,7 @@ const Contact = () => {
                     </div>
                     <div className='bg-white/5 rounded w-full p-2 flex gap-2'>
                         <img className='w-6 ' src={linkedin} />
-                        <a href='www.linkedin.com/in/hvsingh28'>hvsingh28</a>
+                        <a href='https://linkedin.com/in/hvsingh28'>hvsingh28</a>
                     </div>
                     <div className='bg-white/5 rounded w-full p-2 flex gap-2'>
                         <img className='w-6 ' src={github} />
