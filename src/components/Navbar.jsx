@@ -19,7 +19,7 @@ const Navbar = () => {
               <a><li>LET'S CONNECT</li></a>
             </ul>
           </div>
-          {open&& <OpenNav />}
+          {open&& <OpenNav close={()=>setOpen(false)}/>}
          
     </nav> 
   )

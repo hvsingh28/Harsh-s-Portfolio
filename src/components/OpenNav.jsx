@@ -1,12 +1,12 @@
 import React from 'react'
 
-const OpenNav = () => {
+const OpenNav = (props) => {
   return (
     <div className='absolute bg-white/20 backdrop-blur-md md:hidden  right-5 z-20 top-17 w-1/2 py-5 rounded-4xl items-end '>
         <ul className='flex flex-col font-roboto text-sm justify-center items-center text-white gap-4 lg:gap-6 '>
-              <a href='#home' className='hover:text-blue-600'><li>HOME</li></a>
-              <a href='#about' className='hover:text-blue-600'><li>ABOUT</li></a>
-              <a href='#projects' className='hover:text-blue-600'><li>PROJECTS</li></a>
+              <a href='#home' onClick={props.close} className='hover:text-blue-600'><li>HOME</li></a>
+              <a href='#about' onClick={props.close} className='hover:text-blue-600'><li>ABOUT</li></a>
+              <a href='#projects' onClick={props.close} className='hover:text-blue-600'><li>PROJECTS</li></a>
               <a><li>LET'S CONNECT</li></a>
         </ul>
         
