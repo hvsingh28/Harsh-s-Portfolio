@@ -28,7 +28,7 @@ export const certificates =[
         cname : "React Crash Course ",
         issuedby : "Udemy",
         date :"July 4, 2025",
-        Verify : "ude.my/UC-cfbe7d51-abb3-4f79-seOf-07c6560ba8e0"
+        Verify : "https://www.udemy.com/certificate/UC-cfbe7d51-abb3-4f79-seOf-07c6560ba8e0"
 
     },
     {
@@ -37,7 +37,7 @@ export const certificates =[
         cname : "Prompt Engineering and AI with ChatGPT",
         issuedby : "Udemy",
         date :"May 26, 2025",
-        Verify : "ude.my/UC-b3ad2647-a69d-4670-8686-b5f637cf3b1c"
+        Verify : "https://www.udemy.com/certificate/UC-b3ad2647-a69d-4670-8686-b5f637cf3b1c"
 
     }
 
