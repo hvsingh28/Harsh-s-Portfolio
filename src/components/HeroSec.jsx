@@ -5,7 +5,7 @@ const HeroSec = () => {
 
 
   return (
-    <section id='home' className='bg-[#1b1b1b] relative overflow-visible min-h-screen flex flex-col justify-between gap-4 pt-32 '>
+    <section id='home' className=' relative overflow-visible min-h-screen flex flex-col justify-between gap-4 pt-32 '>
       
         <div className='px-2.5 flex flex-col gap-3'>
             <motion.h1 

@@ -12,7 +12,7 @@ import DisplayCertificate from './DisplayCertificate'
 const ProjectSection = () => {
     const [active, setActive] = useState("Projects");
   return (
-    <section id='projects' className='bg-[#1b1b1b] min-h-screen px-6 py-10 lg:px-36 '>
+    <section id='projects' className='min-h-screen px-6 py-10 lg:px-36 '>
         <motion.h1 
             initial={{ opacity: 0, y: 30 }}   // before appearing
             whileInView={{ opacity: 1, y: 0 }} // when in viewport
