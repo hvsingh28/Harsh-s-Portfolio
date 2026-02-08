@@ -1,8 +1,14 @@
 import React from 'react'
 import git from '../assets/icons8-github-logo.gif'
+import { motion } from "motion/react";
 const ProjectCard = (props) => {
   return (
-    <div className='flex flex-col relative overflow-hidden rounded-xl bg-[#292929b3] border border-gray-800 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-blue-500/20'>
+    <motion.div 
+        initial={{ opacity: 0, y: 30 }}   // before appearing
+        whileInView={{ opacity: 1, y: 0 }} // when in viewport
+        viewport={{ once: true ,margin:'-80px'}}          // animate only once
+        transition={{ duration: 1, ease: "easeOut" }}
+        className='flex flex-col relative overflow-hidden rounded-xl bg-[#292929b3] border border-gray-800 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-blue-500/20'>
         <div>
             <img src={props.image} />
         </div>
@@ -28,7 +34,7 @@ const ProjectCard = (props) => {
             </div>
         </div>
         
-    </div>
+    </motion.div>
   )
 }
 
