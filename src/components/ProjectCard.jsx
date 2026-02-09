@@ -30,7 +30,7 @@ const ProjectCard = (props) => {
             <p className='mt-1 text-[#9ca3af] font-roboto text-sm'>{props.description}</p>
             <div className='bg-white py-1 px-2 rounded mt-5 w-fit flex gap-2'>
                 <img src={git} className='w-4' />
-                <a href={props.github} className='text-sm'>Github</a>
+                <a target="_blank" rel="noopener noreferrer" href={props.github} className='text-sm'>Github</a>
             </div>
         </div>
         

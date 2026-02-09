@@ -13,7 +13,7 @@ const CertificateCard = (props) => {
             <p className=' text-[#9ca3af] font-roboto text-sm'>{props.date}</p>
             <div className='bg-white py-1 px-2 rounded mt-5 w-fit flex justify-center items-center gap-2'>
                 <img className='w-5' src={verify} />
-                <a href={props.Verify} className='text-sm font-semibold'>Verification Link</a>
+                <a target="_blank" rel="noopener noreferrer" href={props.Verify} className='text-sm font-semibold'>Verification Link</a>
             </div>
         </div>
     </div>

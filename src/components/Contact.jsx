@@ -171,12 +171,12 @@ const Contact = () => {
 
           <div className="bg-white/5 rounded w-full p-2 flex gap-2">
             <img className="w-6" src={linkedin} />
-            <a href="https://linkedin.com/in/hvsingh28">hvsingh28</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/hvsingh28">hvsingh28</a>
           </div>
 
           <div className="bg-white/5 rounded w-full p-2 flex gap-2">
             <img className="w-6" src={github} />
-            <a href="https://github.com/hvsingh28">hvsingh28</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/hvsingh28">hvsingh28</a>
           </div>
 
           <div className="bg-white/5 rounded w-full p-2 flex gap-2">
